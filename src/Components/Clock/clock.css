@@ -1,0 +1,47 @@
+#clock {
+  height: 13rem;
+  width: 12rem;
+  background-image: url("/public/Group\ 1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  /* background-color: #282c34; */
+}
+
+.clk-text {
+  position: absolute;
+  color: #7e7e7e;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 50%;
+  left: 28%;
+}
+#hour,
+#min,
+#sec {
+  position: absolute;
+  background: #7e7e7e;
+  transform-origin: bottom;
+}
+
+/* Tick for Each item */
+#hour {
+  width: 0.2rem;
+  height: 2.8rem;
+  top: 25.5%;
+  left: 50.9%;
+}
+
+#min {
+  width: 0.175rem;
+  height: 4.5rem;
+  top: 13%;
+  left: 48.9%;
+}
+
+#sec {
+  width: 0.15rem;
+  height: 5.2rem;
+  top: 6.2%;
+  left: 49.9%;
+}
